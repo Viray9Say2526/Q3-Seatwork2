@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Seatwork 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+  </div>
+
+   <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+</header>
+
+    <div class="container bg-danger text-white rounded"> 
+        <h1>Want laptop that can handle school work and gaming?</h1>
+        <p>PC Stadium has the best laptops for you! We have a wide selection of laptops that can handle both school work and gaming. Whether you're a student who needs a reliable laptop for taking notes and doing research, or a gamer who wants to play the latest games, we have something for everyone.</p>
+        <input type="number" class="form-control w-50 mx-auto" placeholder="Enter your budget">
+    </div>
+
+    <main>
+        <div class="container bg-success"></div>
+        <button class="btn btn-primary w-25 mx-auto d-block" onclick="viewDiscounts()">Brands and discounts</button> <br><br>
+        <div id="discounts-container"></div>
+
+        <button class="btn btn-primary w-25 mx-auto d-block" onclick="viewStoreLocations()">Store locations</button>
+        <div id="Store-locations-container"></div>
+
+        <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+    </main>
+
+
+    <footer class="bg-dark fixed-bottom text-white text-center py-3">
+        <p>&copy; 2026 PC Stadium. All rights reserved.</p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
